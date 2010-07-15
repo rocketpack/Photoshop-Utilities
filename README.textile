@@ -1,0 +1,19 @@
+h1. Rocket Pack Photoshop Utilities
+
+h2. Generate Sprite Sheet
+
+The script takes a Photoshop animation and generates a new image with each frame of the animation rendered as a sprite sheet with every frame on the same row.
+
+h3. Download and Install
+
+* Download the script file
+* Place Generate Sprite Sheet.js in your Photoshop Scripts folder probably either C:\Program Files\Adobe\Photoshop CS4\Presets\Scripts\ or /Applications/Photoshop CS4/Presets/Scripts/ (substitute CS4 with your version of Photoshop)
+* (Re-)start Photoshop, open your animation file and select File > Scripts > Generate Sprite Sheet
+* Profit!
+
+Photoshop Animation Sprite Sheet Generator by Rocket Pack Ltd is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.
+
+h3. Gotchas
+
+* Weird things will happen if you have layer names starting with Frame
+* Only tested in Photoshop CS4 and CS5 for OS X
