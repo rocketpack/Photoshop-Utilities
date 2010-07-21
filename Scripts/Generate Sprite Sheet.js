@@ -60,7 +60,9 @@ if (activeDocument) {
 
 	// get animation layers
 	for (var i = 0; i < doc.artLayers.length; i++) {
+		// hide all other layers
 		if (doc.artLayers[i].name.substr(0, 5) != 'Frame') {
+			doc.artLayers[i].visible = false;
 			continue;
 		}
 
